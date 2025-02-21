@@ -1,0 +1,146 @@
+.header {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(69, 123, 157, 1);
+}
+.header1 {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    justify-content: center;
+    background-color: rgba(69, 123, 157, 1);
+}
+.menu {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    background-color: rgba(231, 209, 134, 1);
+}
+.div_menu {
+    margin: 15px;
+    border-right: 1px solid rgba(69, 123, 157, 1);
+    padding-right: 10px;
+    height: 30px;
+}
+.logo-div {
+    display: flex;
+    position: fixed;
+    width: auto;
+    left: 3%;
+}
+
+.logo {
+    width: 120px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background-color: rgba(69, 123, 157, 1);
+}
+.footer-1 {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    justify-content: left;
+    margin-left: 50px;
+}
+.logo-text {
+    font-family: "Bebas Neue", cursive;
+    font-size: 40px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: rgba(231, 209, 134, 1);
+    text-decoration: none;
+}
+
+.footer-text {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: rgba(231, 209, 134, 1);
+}
+.link {
+    font-family: "Bebas Neue", cursive;
+    font-size: 30px;
+    text-decoration: none;
+
+    color: rgba(69, 123, 157, 1);
+    transition: color 0.3s ease-in-out;
+}
+.link:hover {
+    color: rgb(170, 20, 32);
+}
+.mail {
+    color: rgba(231, 209, 134, 1);
+}
+.phone {
+    color: rgba(231, 209, 134, 1);
+}
+@media screen and (max-width: 950px) {
+    .logo-div {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: 10px;
+    }
+
+    .header1 {
+        text-align: center;
+    }
+
+    .menu {
+        display: flex;
+
+        align-items: center;
+    }
+    .name {
+        height: 40px;
+        top: 5px;
+    }
+    .link {
+        font-size: 15px;
+    }
+    .div_menu {
+        margin: 5px 0;
+        height: auto;
+        border-right: 1px solid rgba(69, 123, 157, 1);
+        margin-right: 5px;
+    }
+
+    .body {
+        margin-top: 10px;
+    }
+    .logo-text {
+        font-size: 24px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .footer-info {
+        left: 0px;
+    }
+    .footer-1 {
+        margin-left: 6px;
+    }
+    .footer {
+        height: 40px;
+    }
+    .footer-text {
+        font-size: 10px;
+        margin-top: 1px;
+    }
+}
