@@ -8,11 +8,11 @@ const Produkter = () => (
         <div className="container">
             <ProductContainer
                 title="21 Ägg Pack"
-                img="//pics/Ytter_20_plast-removebg-preview.png"
+                img="/pics/Ytter_20_plast-removebg-preview.png"
             />
             <ProductContainer
                 title="18 Ägg Pack"
-                img="../pics/Yttertavle_18.png"
+                img="./pics/Yttertavle_18.png"
             />
             <ProductContainer
                 title="15 Ägg Pack"
@@ -22,15 +22,15 @@ const Produkter = () => (
         <div className="container">
             <ProductContainer
                 title="12 Ägg Pack"
-                img="React/pics/Yttertavle_12.png"
+                img="React/src/pics/Yttertavle_12.png"
             />
             <ProductContainer
                 title="10 Ägg Pack"
-                img="../pics/Yttertavle_10.png"
+                img="/pics/Yttertavle_10.png"
             />
             <ProductContainer
                 title="6 Ägg Pack"
-                img="../pics/Yttertavle_6.png"
+                img="/pics/Yttertavle_6.png"
             />
         </div>
     </div>
