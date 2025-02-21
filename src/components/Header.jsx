@@ -14,7 +14,7 @@ function Header(){
                 <div className="header1">
                     <div className="name">
                         <p className="logo-text">
-                            <Link to="/" className="logo-text">
+                            <Link to="/HOME" className="logo-text">
                                 Yttertavle Ägg
                             </Link>
                         </p>
@@ -22,7 +22,7 @@ function Header(){
                 </div>
                 <div className="menu">
                     <div className="div_menu">
-                        <Link to="/" className="link">Home</Link>
+                        <Link to="/HOME" className="link">Home</Link>
                     </div>
 
                     <div className="div_menu">
