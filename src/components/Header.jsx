@@ -5,7 +5,7 @@ function Header(){
         return(
                <div className="header">
                 <div className="logo-div">
-                <img src={`${process.env.PUBLIC_URL}/assets/logo.png`} alt="Logo" />
+                <img src="/assets/logo.png" alt="Logo" />
                 </div>
 
                 <div className="header1">
