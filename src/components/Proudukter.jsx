@@ -22,7 +22,7 @@ const Produkter = () => (
         <div className="container">
             <ProductContainer
                 title="12 Ägg Pack"
-                img="React/src/pics/Yttertavle_12.png"
+                img="React/pics/Yttertavle_12.png"
             />
             <ProductContainer
                 title="10 Ägg Pack"
