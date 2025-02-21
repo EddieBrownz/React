@@ -12,11 +12,11 @@ const Produkter = () => (
             />
             <ProductContainer
                 title="18 Ägg Pack"
-                img="./src/pics/Yttertavle_18.png"
+                img="./src/pics/Ellipse_1.png"
             />
             <ProductContainer
                 title="15 Ägg Pack"
-                img="./src/pics/Yttertavle_15.png"
+                img="React/src/pics/Yttertavle_15.png"
             />
         </div>
         <div className="container">
