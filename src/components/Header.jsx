@@ -6,15 +6,10 @@ function Header(){
                 <div className="logo-div">
                     <img
                         className="logo"
-<<<<<<< HEAD
-<<<<<<< HEAD
-                        src={`${process.env.PUBLIC_URL}/src/pics/logo.png`} 
-=======
+
+
                         src="./pics/Ellipse_1.png"
->>>>>>> 92dfc07 (fix some the PICS)
-=======
-                        src="./src/pics/Ellipse_1.png"
->>>>>>> e35d1ae (fix pics)
+
                         alt="no image found"
                     />
                 </div>
