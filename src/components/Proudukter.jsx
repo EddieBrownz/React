@@ -8,7 +8,7 @@ const Produkter = () => (
         <div className="container">
             <ProductContainer
                 title="21 Ägg Pack"
-                img="../pics/Ytter_20_plast-removebg-preview.png"
+                img="//pics/Ytter_20_plast-removebg-preview.png"
             />
             <ProductContainer
                 title="18 Ägg Pack"
