@@ -7,12 +7,15 @@ import Facts from "./components/Facts";
 function App() {
     return (
         <>
+        
             <Header />
+            <HashRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/prouducts" element={<Produkter />} />
                 <Route path="/facts" element={<Facts />} />
             </Routes>
+            </HashRouter>
             <Footer />
         </>
     );
