@@ -12,7 +12,7 @@ const Produkter = () => (
             />
             <ProductContainer
                 title="18 Ägg Pack"
-                img="/pics/Yttertavle_18.png"
+                img="./pics/Yttertavle_18.png"
             />
             <ProductContainer
                 title="15 Ägg Pack"
