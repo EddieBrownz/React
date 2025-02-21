@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "../assests/Header.css";
+
 function Header(){
         return(
                <div className="header">
@@ -8,7 +9,7 @@ function Header(){
                         className="logo"
 
 
-                        src="./pics/Ellipse_1.png"
+                        src="/pics/Ellipse_1.png"
 
                         alt="no image found"
                     />
