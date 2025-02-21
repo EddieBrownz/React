@@ -5,16 +5,15 @@ import Home from "./components/Home";
 import Produkter from "./components/Proudukter";
 import Facts from "./components/Facts";
 function App() {
-    return (    <>
-
-        <Header />
-        <Routes>
-        <Route path="/React" element={<Home />} />
-        <Route path="/prouducts" element={<Produkter />} />
-        <Route path="/facts" element = {<Facts/>}/>
-        
-      </Routes>
-        <Footer />
+    return (
+        <>
+            <Header />
+            <Routes>
+                <Route path="/React" element={<Home />} />
+                <Route path="/prouducts" element={<Produkter />} />
+                <Route path="/facts" element={<Facts />} />
+            </Routes>
+            <Footer />
         </>
     );
 }
