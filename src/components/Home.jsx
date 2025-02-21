@@ -9,7 +9,7 @@ function Home(){
                     <div className="body-pic">
                         <img
                             className="body-pic1"
-                            src="./src/pics/byggnad1.png"
+                            src="React/src/pics/byggnad1.png"
                             alt="no image found"
                         />
                     </div>
@@ -45,7 +45,7 @@ function Home(){
                     </div>
                     <div className="body-pic-2">
                         <img
-                            src="./src/pics/free-range-chickens.jpg"
+                            src="React/src/pics/free-range-chickens.jpg"
                             alt="no image found"
                         />
                     </div>
